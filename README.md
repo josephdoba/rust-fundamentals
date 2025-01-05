@@ -1,1 +1,1 @@
-## Personal repo for learning Rust fundamentals
+## self explanatory
