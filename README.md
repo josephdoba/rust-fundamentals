@@ -1,1 +1,1 @@
-personal repo for learning Rust funndamentals
+## Personal repo for learning Rust fundamentals
