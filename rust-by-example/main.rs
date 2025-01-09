@@ -7,10 +7,10 @@ fn main() {
     eprintln!("this is \"eprintln!\"");
     // can string interpolate directly within the arguments. Interesting!
     println!(
-        "{obj} {subj} {verb}",
-        obj = "the",
-        subj = "big",
-        verb = "dog"
+        "{word1} {word2} {word3}",
+        word1 = "the",
+        word2 = "big",
+        word3 = "dog"
     );
 
     // Rust even checks to make sure the correct number of arguments are used.
