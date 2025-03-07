@@ -26,5 +26,17 @@ fn main() {
     };
 
     // dot notation works!
-    println!("{}", user1.username)
+    println!("{}", user1.username);
+
+    struct Rectangle {
+        width: u32,
+        height: u32
+    }
+
+    fn area(rectangle: &Rectangle) -> u32 {
+        rectangle.width * rectangle.height
+    }
+
+    println!("{}",area(&Rectangle { width: (30), height: (25) }));
+
 }
