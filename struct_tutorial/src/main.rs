@@ -39,4 +39,5 @@ fn main() {
 
     println!("{}",area(&Rectangle { width: (30), height: (25) }));
 
+    println!("{}", area(&Rectangle{ width: (10), height: (12) }));
 }
