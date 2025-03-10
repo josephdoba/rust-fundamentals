@@ -1,6 +1,6 @@
 target/
 guessing_game/target/
 ownership/target/
-ownership/ownership-example/
+ownership/ownership-example/target
 rust-by-example/target/
 struct_tutorial/target/
