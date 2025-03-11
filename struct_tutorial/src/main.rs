@@ -1,5 +1,6 @@
 fn main() {
     println!("Struct Tutorial");
+    println!("-----------------");
 
     /*
     a struct (aka structure) is a custom data type, that lets you bundle
@@ -55,6 +56,8 @@ fn main() {
 
     println!("{}",area(&Rectangle { width: (30), height: (25) }));
     println!("{}", area(&Rectangle{ width: (10), height: (12) }));
+
+
 
 
 
