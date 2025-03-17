@@ -1,11 +1,27 @@
-fn main() {
-    let width1 = 30;
-    let height1 = 50;
-    
 
-    println!("The area of this rectangle is {} px", area(width1,height1))
+
+fn main() {
+// Defining Methods:
+struct Rectangle {
+    width: u32,
+    height: u32, 
 }
 
-fn area(width: u32, height: u32) -> u32 {
-    width * height
+impl Rectangle {
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
+}
+
+
+let rect1 = Rectangle {
+    width: 30,
+    height: 50,
+};
+
+println!("The area of the rectangle is: {}", rect1.area())
+
+// neat! dot notation just like js methods
+
+
 }
