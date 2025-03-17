@@ -21,7 +21,7 @@ let rect1 = Rectangle {
 
 println!("The area of the rectangle is: {}", rect1.area())
 
-// neat! dot notation just like js methods
+// neat! just like js methods
 
 
 }
