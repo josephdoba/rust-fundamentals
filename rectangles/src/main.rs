@@ -23,5 +23,4 @@ println!("The area of the rectangle is: {}", rect1.area())
 
 // neat! just like js methods
 
-
 }
